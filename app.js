@@ -57,3 +57,4 @@ b.io/slick/     let slider = $("#reviewsSlider");
 
 
 });
+A1exKing.github.io
