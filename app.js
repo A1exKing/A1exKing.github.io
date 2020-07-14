@@ -1,7 +1,5 @@
 $(function() {
 
-
-    /* Fixed Header */
     let header = $("#header");
     let intro = $("#intro");
     let introH = intro.innerHeight();
@@ -26,9 +24,6 @@ $(function() {
         }
     }
 
-
-
-    /* Smooth scroll */
     $("[data-scroll]").on("click", function(event) {
         event.preventDefault();
 
@@ -41,9 +36,6 @@ $(function() {
             scrollTop: elementOffset - 70
         }, 700);
     });
-
-
-
     /* Nav Toggle */
     navToggle.on("click", function(event) {
         event.preventDefault();
@@ -51,10 +43,7 @@ $(function() {
         nav.toggleClass("show");
     });
 
-
-
-    /* Reviews: https://kenwheeler.github.io/slick/ */
-    let slider = $("#reviewsSlider");
+b.io/slick/     let slider = $("#reviewsSlider");
 
     slider.slick({
         infinite: true,
